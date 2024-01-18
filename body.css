@@ -409,6 +409,7 @@ a img{
   background-position: center;
   height: 300px; /* Adjust the height as needed */
   color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
 }
 
 .card3 {
@@ -417,6 +418,7 @@ a img{
   background-position: center;
   height: 150px; /* Adjust the height as needed */
   color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
 }
 
 .button3{
