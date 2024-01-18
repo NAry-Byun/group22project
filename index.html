@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+     rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/2c827c8cca.js" crossorigin="anonymous"></script>
+  <link href="body.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+
+<main>
+    <div class="main">
+        <div class="container1 mt-5 ">
+          
+            <form id="booking-form" class="booking-form" method="POST">
+                <div class="form-group">
+                    <div class="form-destination">
+                        <label for="destination">Destination</label>
+                        <input type="text" id="destination" name="destination" placeholder="EG. HAWAII" />
+                    </div>
+                    <div class="form-date-from form-icon">
+                        <label for="date_from">From</label>
+                        <input type="text" id="date_from" class="date_from" placeholder="Pick a date" />
+                        <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                    </div>
+                    <div class="form-date-to form-icon">
+                        <label for="date_to">To</label>
+                        <input type="text" id="date_to" class="date_to" placeholder="Pick a date" />
+                        <!-- <span class="icon"><i class="zmdi zmdi-calendar-alt"></i></span> -->
+                    </div>
+                    <div class="form-quantity">
+                        <label for="quantity">Quantity</label>
+                        <span class="modify-qty plus" onClick="Tang()"><i class="zmdi zmdi-chevron-up"></i></span>
+                        <input type="number" name="quantity" id="quantity" value="0" min="0" class="nput-text qty text">
+                        <span class="modify-qty minus" onClick="Giam()"><i class="zmdi zmdi-chevron-down"></i></span>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" id="submit" class="submit" value="Book now" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+      
+      <div class="text-center mb-5">
+        <div class="first-line">Special Escape</div>
+        <p class="second-line">Promotions, deals and special offers for you</p>
+    </div>
+     <div class="container mt-5">
+   <div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0 bottom">
+    <div class="card">
+      <div class="card-body ">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-5">
+      <div class="card-body ">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn btn-light">Go somewhere</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    
+      </div>
+</main>
+
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card2">
+        <div class="card-body">
+          <h5 class="card-title text-center">Entire home in Kuta Utara, Indonesia</h5>
+          <p class="card-text text-center">Perfect for families that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="https://a0.muscache.com/im/pictures/miso/Hosting-36165132/original/5d7182a0-86e5-4156-a44a-2e054d0ebda3.jpeg?im_w=1200" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Treehouse in Selat, Indonesia</h5>
+          <p class="card-text">Hideout Horizon is the largest addition to the Hideout Family.<p></p>Super Host House</p>
+          <p class="card-text"><small class="text-muted"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Reservation</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                  </div>
+                  <div class="modal-body"> <form action="reservation.php" method="post">
+                      <div class="elem-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="email">Your E-mail</label>
+                        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="phone">Your Phone</label>
+                        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                      </div>
+                      <hr>
+                      <div class="elem-group inlined">
+                        <label for="adult">Adults</label>
+                        <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="child">Children</label>
+                        <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="checkin-date">Check-in Date</label>
+                        <input type="date" id="checkin-date" name="checkin" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="checkout-date">Check-out Date</label>
+                        <input type="date" id="checkout-date" name="checkout" required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="room-selection">Select Room Preference</label>
+                        <select id="room-selection" name="room_preference" required>
+                            <option value="">Choose a Room from the List</option>
+                            <option value="connecting">Connecting</option>
+                            <option value="adjoining">Adjoining</option>
+                            <option value="adjacent">Adjacent</option>
+                        </select>
+                      </div>
+                      <hr>
+                      <div class="elem-group">
+                        <label for="message">Anything Else?</label>
+                        <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                      </div>
+                      <button type="submit">Book The Rooms</button>
+                    </form>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Reserve</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></small></p>
+        </div>
+      </div>
+    
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="https://a0.muscache.com/im/pictures/9b731de6-b8b6-4eae-aba2-631216bf1bfc.jpg?im_w=720" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Tiny home in Nelson,<p></p> New Zealand</h5>
+          <p class="card-text">Rising from the ground like something straight out of a fairytale storybook<p></p>
+          <p class="card-text"><small class="text-muted"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Reservation</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                  </div>
+                  <div class="modal-body"> <form action="reservation.php" method="post">
+                      <div class="elem-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="visitor_name" placeholder="Hot Dog" pattern=[A-Z\sa-z]{3,20} required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="email">Your E-mail</label>
+                        <input type="email" id="email" name="visitor_email" placeholder="hotdog@email.com" required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="phone">Your Phone</label>
+                        <input type="tel" id="phone" name="visitor_phone" placeholder="123-456-789" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                      </div>
+                      <hr>
+                      <div class="elem-group inlined">
+                        <label for="adult">Adults</label>
+                        <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="child">Children</label>
+                        <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="checkin-date">Check-in Date</label>
+                        <input type="date" id="checkin-date" name="checkin" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="checkout-date">Check-out Date</label>
+                        <input type="date" id="checkout-date" name="checkout" required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="room-selection">Select Room Preference</label>
+                        <select id="room-selection" name="room_preference" required>
+                            <option value="">Choose a Room from the List</option>
+                            <option value="connecting">Connecting</option>
+                            <option value="adjoining">Adjoining</option>
+                            <option value="adjacent">Adjacent</option>
+                        </select>
+                      </div>
+                      <hr>
+                      <div class="elem-group">
+                        <label for="message">Anything Else?</label>
+                        <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                      </div>
+                      <button type="submit">Book The Rooms</button>
+                    </form>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Reserve</button>
+                  </div>
+                </div>
+              </div>
+            
+          </div></small>
+      </small></p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+
+
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="https://a0.muscache.com/im/pictures/miso/Hosting-896615610365768668/original/14919bfd-7175-4f8f-bff4-bdb0ba710ff6.jpeg?im_w=1200" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Dome in Agnes, <p></p>Australia</h5>
+          <p class="card-text">Bubble Retreats is a truly extraordinary and immersive experience looking out to Wilsons Prom NP.</p>
+          <p class="card-text"><small class="text-muted"><button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Book now</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Reservation</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                  </div>
+                  <div class="modal-body"> <form action="reservation.php" method="post">
+                      <div class="elem-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="email">Your E-mail</label>
+                        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="phone">Your Phone</label>
+                        <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+                      </div>
+                      <hr>
+                      <div class="elem-group inlined">
+                        <label for="adult">Adults</label>
+                        <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="child">Children</label>
+                        <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="checkin-date">Check-in Date</label>
+                        <input type="date" id="checkin-date" name="checkin" required>
+                      </div>
+                      <div class="elem-group inlined">
+                        <label for="checkout-date">Check-out Date</label>
+                        <input type="date" id="checkout-date" name="checkout" required>
+                      </div>
+                      <div class="elem-group">
+                        <label for="room-selection">Select Room Preference</label>
+                        <select id="room-selection" name="room_preference" required>
+                            <option value="">Choose a Room from the List</option>
+                            <option value="connecting">Connecting</option>
+                            <option value="adjoining">Adjoining</option>
+                            <option value="adjacent">Adjacent</option>
+                        </select>
+                      </div>
+                      <hr>
+                      <div class="elem-group">
+                        <label for="message">Anything Else?</label>
+                        <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+                      </div>
+                      <button type="submit">Book The Rooms</button>
+                    </form>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Reserve</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></small></p>
+        </small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card2">
+        <div class="card-body">
+          <h5 class="card-title text-center">Entire home in Kuta Utara, Indonesia</h5>
+          <p class="card-text text-center">Perfect for families that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card2">
+        <div class="card-body">
+          <h5 class="card-title text-center">Entire home in Kuta Utara, Indonesia</h5>
+          <p class="card-text text-center">Perfect for families that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="card3">
+            <div class="card-body">
+              <h5 class="card-title text-center">Entire home in Kuta Utara, Indonesia</h5>
+              <p class="card-text text-center">Perfect for families that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card3">
+            <div class="card-body">
+              <h5 class="card-title text-center">Entire home in Kuta Utara, Indonesia</h5>
+              <p class="card-text text-center">Perfect for families that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+            </div>
+          </div>
+        </div>
+    <!-- Add more cards as needed -->
+  
+    <div class="col-md-2">
+      <div class="card3">
+        <div class="card-body">
+          <h5 class="card-title text-center">Entire home in Kuta Utara, Indonesia</h5>
+          <p class="card-text text-center"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card3">
+        <div class="card-body">
+          <h5 class="card-title text-center"> home in Kuta Utara, Indonesia</h5>
+          <p class="card-text text-center">ddlies that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card3">
+        <div class="card-body">
+          <h5 class="card-title text-center"> home in Kuta Utara, Indonesia</h5>
+          <p class="card-text text-center">Perfect for families that are looking to stay and enjoy the beaches and cafes in the Canggu area.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card3">
+        <div class="card-body">
+          <h5 class="card-title text-center"></h5>
+          <p class="card-text text-center"> foenjoy the beaches and cafes in the Canggu area>
+        </div>
+      </div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</div>
+
+<h5 class="text-center mt-5">Discover Experiences
+<p class="text-center">Unique activities with local experts—in person or online.</p>
+<button type="button3" class="btn btn-dark btn-sm col-md-2 mt-5">Explore all</button>
+</h5>
+
+
+</body>
+
+</html>
