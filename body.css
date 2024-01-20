@@ -780,20 +780,20 @@ display-flex, .header, .form-group {
   
   }
   
-  @media (max-width: 800px) { 
+  @media (max-width: 1000px) { 
     ul {
       display: flex;
       flex-direction: column;}}
   
      
   
-      @media (max-width: 800px) { 
+      @media (max-width: 1000px) { 
         .footer-suport {
          border: 2px dotted #eb966e;
         min-width: 300px;
       padding: 10px 10px;}}
       
   
-         @media (max-width: 800px) { 
+         @media (max-width: 1000px) { 
           .boxhidden {
            display: none;}}
