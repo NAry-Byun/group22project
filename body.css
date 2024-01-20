@@ -533,16 +533,15 @@ display-flex, .header, .form-group {
     padding: 0; }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 300;
-    src: url("../fonts/poppins/poppins-v5-latin-300.eot");
    
     src: local("Poppins Light"), local("Poppins-Light"), url("../fonts/poppins/poppins-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins/poppins-v5-latin-300.woff2") format("woff2"), url("../fonts/poppins/poppins-v5-latin-300.woff") format("woff"), url("../fonts/poppins/poppins-v5-latin-300.ttf") format("truetype"), url("../fonts/poppins/poppins-v5-latin-300.svg#Poppins") format("svg");
      }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: italic;
     font-weight: 300;
     src: url("../fonts/poppins/poppins-v5-latin-300italic.eot");
@@ -553,7 +552,7 @@ display-flex, .header, .form-group {
 
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/poppins/poppins-v5-latin-600.eot");
@@ -562,7 +561,7 @@ display-flex, .header, .form-group {
    }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/poppins/poppins-v5-latin-700.eot");
@@ -571,7 +570,7 @@ display-flex, .header, .form-group {
    }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-style: italic;
   font-weight: 700;
   src: url("../fonts/poppins/poppins-v5-latin-700italic.eot");
@@ -580,7 +579,7 @@ display-flex, .header, .form-group {
   /* Legacy iOS */ }
 /* poppins-800 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: 800;
   src: url("../fonts/poppins/poppins-v5-latin-800.eot");
@@ -589,7 +588,7 @@ display-flex, .header, .form-group {
   /* Legacy iOS */ }
 /* poppins-800italic - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-style: italic;
   font-weight: 800;
   src: url("../fonts/poppins/poppins-v5-latin-800italic.eot");
@@ -598,7 +597,7 @@ display-flex, .header, .form-group {
   /* Legacy iOS */ }
 /* poppins-900 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: 900;
   src: url("../fonts/poppins/poppins-v5-latin-900.eot");
@@ -668,7 +667,7 @@ h1 {
   padding: 0;
   font-weight: bold;
   color: #fff;
-  font-family: Poppins;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-size: 21px;
   text-align: center;
   margin-bottom: 28px; }
@@ -689,7 +688,7 @@ main {
   -ms-background-size: cover;
   background-position: center center;
   font-weight: 600;
-  font-family: Poppins;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   margin: 0px; }
 
 
@@ -709,7 +708,7 @@ main {
     width: 960px;
 }
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/poppins/poppins-v5-latin-regular.eot");    
@@ -717,7 +716,7 @@ main {
    }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: italic;
     font-weight: 400;
     src: url("../fonts/poppins/poppins-v5-latin-italic.eot");
@@ -726,7 +725,7 @@ main {
      }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url("../fonts/poppins/poppins-v5-latin-500.eot");
@@ -735,7 +734,7 @@ main {
    }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: italic;
     font-weight: 500;
     src: url("../fonts/poppins/poppins-v5-latin-500italic.eot");
@@ -744,7 +743,7 @@ main {
      }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 600;
     src: url("../fonts/poppins/poppins-v5-latin-600.eot");
@@ -753,7 +752,7 @@ main {
      }
   
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/poppins/poppins-v5-latin-700.eot");
@@ -780,7 +779,7 @@ main {
     /* Legacy iOS */ }
   /* poppins-800italic - latin */
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: italic;
     font-weight: 800;
     src: url("../fonts/poppins/poppins-v5-latin-800italic.eot");
@@ -789,7 +788,7 @@ main {
     /* Legacy iOS */ }
   /* poppins-900 - latin */
   @font-face {
-    font-family: 'Poppins';
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-style: normal;
     font-weight: 900;
     src: url("../fonts/poppins/poppins-v5-latin-900.eot");
@@ -859,7 +858,7 @@ main {
     padding: 0;
     font-weight: bold;
     color: #fff;
-    font-family: Poppins;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-size: 21px;
     text-align: center;
     margin-bottom: 28px; }
@@ -880,7 +879,7 @@ main {
     -ms-background-size: cover;
     background-position: center center;
     font-weight: 600;
-    font-family: Poppins;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     margin: 0px; }
   
   .main {
@@ -938,6 +937,19 @@ main {
     -o-object-fit: cover;
     object-fit: cover;
 }
+.first-line{
+  font-weight: 600;
+  font-size: 70pt;
+  color:whitesmoke;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.second-line{
+  font-weight: 600;
+  font-size: 15pt;
+  color:#e6ebe8;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
 
 .d354f8f44f {
   -o-object-fit: cover!important;
@@ -953,17 +965,84 @@ a img{
   border: none!important;
 } 
 
-
-.card2 {
-  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+.card1 {
+  background-image: url('https://a0.muscache.com/im/pictures/7c734ce7-7042-4bda-8c3d-463a3dcc87f6.jpg?im_w=1200');
   background-size: cover;
   background-position: center;
-  height: 300px; /* Adjust the height as needed */
+  height: 350px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 2%;
+  
+}
+
+.card1:first-child{
+  align-self: flex-end;
+}
+
+.card2 {
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-49840100/original/f7d61fa4-cece-428b-bda2-58526caf3b14.jpeg?im_w=1200');
+  background-size: cover;
+  background-position: center;
+  height: 350px; /* Adjust the height as needed */
   color: white; /* Set text color to be visible on the background image */
   border-radius: 5%;
 }
 
 .card3 {
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-49840100/original/d2d95a29-f68a-45ea-a9ce-5889d5736959.jpeg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 350px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+
+.card4 {
+  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card5 {
+  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card6 {
+  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card7 {
+  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card8 {
+  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+.card9 {
   background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
   background-size: cover;
   background-position: center;
