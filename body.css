@@ -1,6 +1,4 @@
-body {
-  margin: 0px;
-}
+
 
 
 .top-letter-box {
@@ -465,8 +463,7 @@ main {
   font-family: Poppins;
   margin: 0px; }
 
-.main {
-  position: relative; }
+
 
 .container1 {
   width: 960px;
