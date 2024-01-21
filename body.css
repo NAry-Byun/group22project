@@ -47,10 +47,45 @@ body {
 
 
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.heart-icon,
+.camera-icon {
+  font-size: 24px;
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.7); /* 하트 색상 */
+}
 
+.camera-icon {
+  color:rgba(255, 255, 255, 0.7); /* 사진기 아이콘 색상 */
+}
 
+.instagram-icon {
+  font-size: 24px;
+  margin-right: 8px;
+  color: rgba(255, 255, 255, 0.7); /* 하트 및 인스타그램 아이콘 색상 */
 
+}
+
+.description {
+  bottom: 0; /* 하단에 위치하도록 설정 */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* 설명 부분 배경색 설정 */
+  color: black;
+  padding: 10px;
+  text-align:left;
+  font-size: 13px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.description2{
+  font-size: 15px; 
+  text-decoration:underline
+}
 
 
 .global-logo {
@@ -965,6 +1000,27 @@ a img{
   border: none!important;
 } 
 
+.btn-custom {
+  color: #fff;
+  background-color: #6c757d; /* Choose a color that fits your design */
+  border-color: #6c757d;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #495057; /* Choose a darker shade for hover effect */
+  border-color: #495057;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+  padding: 20px;
+}
+
+
 .card1 {
   background-image: url('https://a0.muscache.com/im/pictures/7c734ce7-7042-4bda-8c3d-463a3dcc87f6.jpg?im_w=1200');
   background-size: cover;
@@ -999,7 +1055,7 @@ a img{
 
 
 .card4 {
-  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-894059607679694061/original/d7338e27-52b9-47dd-b6c5-f44fe283a76e.jpeg?im_w=720');
   background-size: cover;
   background-position: center;
   height: 150px; /* Adjust the height as needed */
@@ -1008,7 +1064,7 @@ a img{
 }
 
 .card5 {
-  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-image: url('https://a0.muscache.com/im/pictures/monet/Luxury-628221576212184632/original/3e6b1c04-4492-4604-8b2b-325134a5add9?im_w=720');
   background-size: cover;
   background-position: center;
   height: 150px; /* Adjust the height as needed */
@@ -1026,7 +1082,7 @@ a img{
 }
 
 .card7 {
-  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-image: url('https://a0.muscache.com/im/pictures/monet/Luxury-41232703/original/6572e163-647b-4a5c-a738-8bd3c044fc70?im_w=720');
   background-size: cover;
   background-position: center;
   height: 150px; /* Adjust the height as needed */
@@ -1035,7 +1091,7 @@ a img{
 }
 
 .card8 {
-  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-846219986179256757/original/305e4422-c408-426e-8366-9afe60f6c8f5.jpeg?im_w=720');
   background-size: cover;
   background-position: center;
   height: 150px; /* Adjust the height as needed */
@@ -1043,7 +1099,7 @@ a img{
   border-radius: 5%;
 }
 .card9 {
-  background-image: url('https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720');
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-867293082922314504/original/36b3d3ee-ce77-48f0-b784-cb7585544817.jpeg?im_w=720');
   background-size: cover;
   background-position: center;
   height: 150px; /* Adjust the height as needed */
@@ -1051,10 +1107,71 @@ a img{
   border-radius: 5%;
 }
 
+.card10 {
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-45646568/original/101bce67-77ae-4a7d-8469-28b2721afb76.jpeg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card11 {
+  background-image: url('https://a0.muscache.com/im/pictures/1522e667-72ed-41b7-af13-03af9280b603.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card12 {
+  background-image: url('https://a0.muscache.com/im/pictures/2c0f4b90-e315-4f30-bf1e-8ea885e75948.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card13 {
+  background-image: url('https://a0.muscache.com/im/pictures/miso/Hosting-38469393/original/310d31b2-c57a-4f11-980b-5b2b18990af7.jpeg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+}
+
+.card14 {
+    background-image: url('https://a0.muscache.com/im/pictures/prohost-api/Hosting-28765303/original/effd851e-759c-4a4c-ae72-0d577b717fc5.jpeg?im_w=720');
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Adjust the height as needed */
+    color: white; /* Set text color to be visible on the background image */
+    border-radius: 5%;
+  }
+.card15 {
+  background-image: url('https://a0.muscache.com/im/pictures/f414c36b-51e3-4555-ae36-676475cf2c41.jpg?im_w=720');
+  background-size: cover;
+  background-position: center;
+  height: 150px; /* Adjust the height as needed */
+  color: white; /* Set text color to be visible on the background image */
+  border-radius: 5%;
+  margin-bottom: 1rem; /* Adjust this value as needed */
+}
+
+  
+
+  h5.text-center,
+  p.text-center,
+  button.btn {
+    margin-top: 0rem; /* Adjust this value as needed */
+  }
+
 .button3{
   size: 30%;
 }
-
 
 .footer-background{
   background: #EBEBEB;
