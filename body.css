@@ -1383,3 +1383,8 @@ ul li:hover {
   font-size: 30px;
 
 }
+
+.dropdown-item:hover {
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: #EBEBEB;
+}
