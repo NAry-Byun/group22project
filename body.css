@@ -11,8 +11,25 @@ body {
     justify-content: center;
     align-items: center;
     border: 0px;
+    padding: 10px;
     
 }
+
+@media (min-width: 768px) {
+  .logo-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+  }}
+
+  @media (max-width: 767px) {
+    .logo-bar {
+      text-align: center;
+      padding: 10px;
+      color: white;
+    }}
 
 .top-letter-style {
     color: #222222;
@@ -1264,20 +1281,20 @@ ul li{
 
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 767px) { 
   ul {
     display: flex;
     flex-direction: column;}}
 
    
 
-    @media (max-width: 800px) { 
+    @media (max-width: 767px) { 
       .footer-suport {
        border: 2px dotted #eb966e;
       min-width: 300px;
     padding: 10px 10px;}}
     
 
-       @media (max-width: 800px) { 
+       @media (max-width: 767px) { 
         .boxhidden {
          display: none;}}
