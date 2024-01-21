@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    height:100vh;
 }
 
 
@@ -1189,9 +1190,12 @@ a img{
 .button3{
   size: 30%;
 }
+
 .footer-background {
-  background: #EBEBEB;
-  padding-top: 10px;
+background: #EBEBEB;
+padding-top: 10px;
+position : relative;
+transform : translateY(-60%);
 }
 
 .footer-room-menu {
