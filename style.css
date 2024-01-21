@@ -187,3 +187,8 @@ ul li {
 .dropdown-toggle::after {
   display: none;
 }
+
+ul li:hover {
+  font-size: 30px;
+
+}
