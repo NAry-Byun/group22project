@@ -24,7 +24,7 @@ Dongjin Kim
 
 Jason Song
 
-Hyewon PArk
+Hyewon Sim
 
 # Project Period
 
