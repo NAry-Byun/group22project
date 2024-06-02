@@ -4,17 +4,18 @@
 
 <div style="text-align:center;">
         <h1>:information_desk_person: BookingWeb</h1>
-        <p>This project is for Group project with HTML+CSS.</p>
-        <p>We are usin HTML_,CSS+Javascrip make a feature of booking home page with login page</p>
-        <p>We get ideas from Air Bnvb and bookings.com </p>
+
+
+<p >
+    <img src="https://github.com/NAry-Byun/group22project/blob/master/bookingweb1.png?raw=true" width="600" height="500">
+</p>
+        
+<p>This project is for a group project using HTML and CSS.</p>
+<p>We are using HTML, CSS, and JavaScript to create a booking home page with a login feature.</p>
+<p>We got ideas from Airbnb and Booking.com.</p>
+<p>We are focusing on implementing the website features and integrating them with all device screen sizes using media queries and JavaScript.</p> <br>
     </div>
-
-
-# :movie_camera: Demo GIF
-</div><p align="center">
-<img src="https://github.com/NAry-Byun/group22project/blob/master/bookingweb.gif?raw=true"></img></p><div></div>
-<p align="center">Project Website link :<br> https://wokemate.netlify.app](https://group22bookingweb.netlify.app <br> <br>
-
+    
 # 🙌Who created Workmate
 👨‍🎓👩‍🎓** Team Members **👨‍🎓👩‍🎓<br>
 
@@ -33,12 +34,19 @@ Hyewon Sim
 Need to improve with this idea
 
 
+
+# :movie_camera: Demo GIF
+</div><p align="center">
+<img src="https://github.com/NAry-Byun/group22project/blob/master/bookingweb.gif?raw=true"></img></p><div></div>
+<p align="center">Project Website link :<br> https://wokemate.netlify.app](https://group22bookingweb.netlify.app <br> <br>
+
+
+
 # ⚒️ Tech stack!
 
 
 
 Creat with Html +  CSS + Java script 
 <div>Deploy with netlify.com </div>
-<div>
-<img src="https://github.com/NAry-Byun/workmate/blob/master/img/workmate2.png?raw=true" ></img></div>
+
 
