@@ -38,7 +38,7 @@ Need to improve with this idea
 # :movie_camera: Demo GIF
 </div><p align="center">
 <img src="https://github.com/NAry-Byun/group22project/blob/master/bookingweb.gif?raw=true"></img></p><div></div>
-<p align="center">Project Website link :<br> https://wokemate.netlify.app](https://group22bookingweb.netlify.app <br> <br>
+<p align="center">Project Website link :<br> https://group22bookingweb.netlify.app <br> <br>
 
 
 
